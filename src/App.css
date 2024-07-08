@@ -2,10 +2,11 @@
   box-sizing: border-box;
 }
 body {
+  padding-top: 4rem;
   margin: 0;
   color: #333;
   --type-first: Helvetica, Arial, sans-serif;
-  --type-second: "Spectral", georgia;
+  --type-second: "Spectral", Georgia;
   font-family: var(--type-first);
 }
 h1,
@@ -32,8 +33,11 @@ input {
   font-family: var(--type-first);
   color: #333;
 }
+a {
+  text-decoration: none;
+}
 .container {
-  max-width: 50px;
+  max-width: 50rem;
   padding: 0 1rem;
   margin: 0 auto;
 }
