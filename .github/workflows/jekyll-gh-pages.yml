@@ -54,5 +54,5 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
         with:
-          branch: gh-pages  # Pode ser 'gh-pages' ou a branch onde você quer hospedar o site
+          branch: main  # Pode ser 'gh-pages' ou a branch onde você quer hospedar o site
           folder: ./build   # A pasta gerada pelo build do React
