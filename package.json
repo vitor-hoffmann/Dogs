@@ -2,7 +2,7 @@
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://vitor-hoffmann.github.io/Dogs/",
+  "homepage": "https://vitor-hoffmann.github.io/Dogs",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
